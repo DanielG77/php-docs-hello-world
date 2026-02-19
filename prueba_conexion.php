@@ -1,12 +1,5 @@
 <?php
-
-echo "<pre>";
-echo "DB_HOST: " . var_export(getenv('DB_HOST'), true) . "\n";
-echo "DB_USER: " . var_export(getenv('DB_USER'), true) . "\n";
-echo "DB_PASSWORD: " . var_export(getenv('DB_PASSWORD'), true) . "\n";
-echo "</pre>";
-
-// Recuperar variables de entorn
+// Recuperar variables de entorno
 $dbHost = getenv('DB_HOST');
 $dbName = "prueba";
 $dbUser = getenv('DB_USER');
